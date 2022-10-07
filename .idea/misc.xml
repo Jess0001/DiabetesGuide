@@ -5,6 +5,17 @@
       <map>
         <entry key="..\:/Users/Jess/OneDrive - ADvTECH Ltd/WIL/Project Plan Implementation/Development of Prototype/DiabetesGuide/app/src/main/res/drawable/logo_img_background.xml" value="0.1945" />
         <entry key="..\:/Users/Jess/OneDrive - ADvTECH Ltd/WIL/Project Plan Implementation/Development of Prototype/DiabetesGuide/app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/drawable-v24/bg_heading.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable-v24/custom_input.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.2435" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/ic_account.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_appointment_24.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_add_category.xml" value="0.25625" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.266304347826087" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25625" />
+        <entry key="app/src/main/res/layout/activity_reccomendations.xml" value="0.2868972778320313" />
+        <entry key="app/src/main/res/menu/bottom_app_bar.xml" value="0.3098958333333333" />
       </map>
     </option>
   </component>
