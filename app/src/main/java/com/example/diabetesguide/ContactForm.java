@@ -27,7 +27,7 @@ public class ContactForm extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String emailsend = "national@diabetessa.org.za";
-                String emailsubject = "Query from Diabetes Guide User";
+                String emailsubject = "Query from Diabetes Guide com.example.diabetesguide.User";
                 String emailbody = message.getText() +
                         "\nContact Details" +
                         "\nName: " + name.getText() +

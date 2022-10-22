@@ -30,6 +30,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="No events currently available..." />
+
+            <ListView
+                android:id="@+id/reminders_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
         </LinearLayout>
     </ScrollView>
 
