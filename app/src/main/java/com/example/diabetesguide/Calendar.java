@@ -29,7 +29,7 @@ public class Calendar extends AppCompatActivity {
 
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
     //add reminders to path
-    private DatabaseReference diabetesGuideRef = database.getReference("Reminders");
+    private DatabaseReference diabetesGuideRef = database.getReference("RemindersInfo");
     private List<String> listOfReminders;
     private ArrayAdapter<String> remindersAdapter;
     private Date selectedDate;
@@ -67,7 +67,7 @@ public class Calendar extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for(DataSnapshot pulledReminders : snapshot.getChildren()){
-                    Reminders reminders = pulledReminders.getValue(Reminders.class);
+                    RemindersInfo reminders = pulledReminders.getValue(RemindersInfo.class);
                 }
 
                 remindersAdapter = new ArrayAdapter<>(Calendar.this, android.R.layout.simple_list_item_1, listOfReminders);
@@ -85,10 +85,10 @@ public class Calendar extends AppCompatActivity {
         createNewReminder_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /*// create intent object with context and class name of other activity
+                // create intent object with context and class name of other activity
                 Intent intent = new Intent(getApplicationContext(), Reminders.class);
                 // call startActivity method and pass intent
-                startActivity(intent);*/
+                startActivity(intent);
 
             }
         });
