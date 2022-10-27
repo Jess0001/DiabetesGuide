@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Register_Page">
+    tools:context=".RegisterFragment">
 
     <Space
         android:layout_width="match_parent"
@@ -17,7 +17,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="#FFB6B1"
-        android:fontFamily="@font/poppins_medium"
         android:text="JOIN"
         android:textColor="#0A0B0B" />
 
@@ -27,7 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right|top|end"
         android:background="#FFB6B1"
-        android:fontFamily="@font/poppins_medium"
         android:text="LOG IN"
         android:textColor="#090909" />
 
@@ -42,14 +40,13 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/diabetes_sa_logo" />
+            app:srcCompat="@drawable/diabetes_sa_logo_img" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/poppins_medium"
             android:gravity="center"
             android:text="SIGN UP"
             android:textSize="28dp" />
@@ -105,7 +102,6 @@
             android:layout_width="227dp"
             android:layout_height="wrap_content"
             android:background="#FFB6B1"
-            android:fontFamily="@font/poppins_medium"
             android:text="REGISTER" />
 
         <TextView
@@ -113,7 +109,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/poppins_medium"
             android:gravity="center"
             android:text="CONTINUE WITH " />
 
@@ -127,7 +122,6 @@
             android:id="@+id/tv_log_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_medium"
             android:gravity="center"
             android:text="ALREADY A USER?  LOG IN" />
 

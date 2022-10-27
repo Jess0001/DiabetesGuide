@@ -1,9 +1,9 @@
 package com.example.diabetesguide;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,5 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent SplashIntent = new Intent(getApplicationContext(),Splash_Screen.class);
+        startActivity(SplashIntent);
+        finish();
     }
+
 }
