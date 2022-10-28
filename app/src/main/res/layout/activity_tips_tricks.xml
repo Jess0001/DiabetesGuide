@@ -293,7 +293,27 @@
                     android:orientation="vertical">
 
 
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/View3"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/circle_image"
+                        android:insetLeft="0dp"
+                        android:insetTop="0dp"
+                        android:insetRight="0dp"
+                        android:insetBottom="0dp"
 
+                        app:iconGravity="textStart"
+                        app:iconPadding="0dp"
+                        app:iconSize="15dp"
+                        app:iconTint="?colorTertiary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VIEW"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
@@ -370,6 +390,27 @@
 
 
                 </LinearLayout>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/View4"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/circle_image"
+                    android:insetLeft="0dp"
+                    android:insetTop="0dp"
+                    android:insetRight="0dp"
+                    android:insetBottom="0dp"
+
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="15dp"
+                    app:iconTint="?colorTertiary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VIEW"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
 
             </LinearLayout>
 
