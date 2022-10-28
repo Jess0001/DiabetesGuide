@@ -28,6 +28,7 @@ public class User_Profile extends AppCompatActivity {
         setContentView(R.layout.activity_user_profile);
 
         radioGroup = findViewById(R.id.radioGroup);
+
         HealthIssueEdt = (EditText) findViewById(R.id.edtHealthIssue);
 
         WeightEdt = (EditText) findViewById(R.id.edtWeight);
