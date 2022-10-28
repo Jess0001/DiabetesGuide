@@ -50,16 +50,17 @@
         android:orientation="horizontal"
         android:gravity="center_horizontal">
         <RadioGroup
-            android:id="@+id/radioGroup"
+            android:id="@+id/rGroup"
             android:orientation="horizontal"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="15dp">
+            android:paddingLeft="50dp">
             <RadioButton
-                android:id="@+id/Type1"
+                android:id="@+id/rDaily"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Type 1"
+                android:text="Daily"
                 android:checked="true"
                 android:buttonTint="#FD6F6F"
                 >
@@ -67,10 +68,26 @@
             </RadioButton>
 
             <RadioButton
-                android:id="@+id/Type2"
+                android:id="@+id/rWeekly"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Type 2">
+                android:text="Weekly">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/Monthly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monthly">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/Yearly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yearly">
 
             </RadioButton>
         </RadioGroup>
@@ -81,14 +98,11 @@
         android:layout_height="429dp"
         android:orientation="vertical">
 
-
         <com.jjoe64.graphview.GraphView
             android:layout_width="match_parent"
-            android:layout_height="388dp"
-            android:layout_marginBottom="120dp">
-
+            android:id="@+id/bloodSugarGV"
+            android:layout_height="384dp">
         </com.jjoe64.graphview.GraphView>
-
 
     </LinearLayout>
 
@@ -102,11 +116,11 @@
 
         <Button
             android:layout_gravity="center_horizontal"
-            android:id="@+id/btnCreateLog"
+            android:id="@+id/btnLoad"
             android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:text="CREATE LOG">
+            android:text="Load">
 
         </Button>
 
