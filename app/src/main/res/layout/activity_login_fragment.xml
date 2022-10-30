@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginFragment">
+    tools:context=".login_fragment"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
     <ImageView
         android:id="@+id/loginImage"
         android:layout_width="204dp"

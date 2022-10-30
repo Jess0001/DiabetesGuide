@@ -76,7 +76,7 @@ public class Reminders extends AppCompatActivity {
                     rootRef.child("reminderInfo").child(reminderInfo).setValue(true);
                 }
 
-                addDatatoFirebase();
+                AddDatatoFirebase();
 
 
 
@@ -85,7 +85,7 @@ public class Reminders extends AppCompatActivity {
         });
     }
 
-    private void addDatatoFirebase() {
+    private void AddDatatoFirebase() {
 
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override

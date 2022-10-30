@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterFragment">
+    tools:context=".register_fragment"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
 
     <TextView
         android:id="@+id/textTitleSingUp"
@@ -33,8 +34,11 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:contentDescription="Email"
+            android:hint="EMAIL PASSWORD" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -54,8 +58,11 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_name"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:contentDescription="Name"
+            android:hint="NAME" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -75,9 +82,12 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:inputType="textPassword"
+            android:id="@+id/et_password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:contentDescription="Password"
+            android:hint="PASSWORD"
+            android:inputType="textPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -86,7 +96,7 @@
         android:layout_width="117dp"
         android:layout_height="48dp"
         android:background="@drawable/rounded_button"
-        android:text="LOGIN"
+        android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
