@@ -52,17 +52,19 @@ public class create_logs extends AppCompatActivity {
                 foodTypes = foodTypesEdt.getText().toString();
                 activity = activityEdt.getText().toString();
 
+
+                Intent myIntent = new Intent(create_logs.this, stats.class);
+                myIntent.putExtra("Time", timeRecorded);
+
                 Intent myIntent = new Intent(create_logs.this, Reccomendations.class);
                 myIntent.putExtra("Time", timeRecorded);
                 //myIntent.putExtra("bloodSugar", bloodSugar);
+                
                 myIntent.putExtra("bloodSugar", bloodSugar);
                 startActivity(myIntent);
 
-
-
             }
         });
-
 
     }
 }
