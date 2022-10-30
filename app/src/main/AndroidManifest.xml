@@ -16,6 +16,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DiabetesGuide">
         <activity
+            android:name=".stats"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".create_logs"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ContactForm"
             android:exported="false" />
         <activity
