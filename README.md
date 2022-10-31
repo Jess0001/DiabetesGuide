@@ -160,6 +160,7 @@ Future Updates
    in.
 3. Improve functionality within system.
 4. Improve user design within system based on feedback and guidance with DiabetesSA
+5. We aim to get the application working as soon as possible.
 
 ---------------------
 References
