@@ -19,7 +19,7 @@ import com.jjoe64.graphview.series.PointsGraphSeries;
 
 import java.sql.Time;
 
-public class stats extends AppCompatActivity {
+public class Stats extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
 

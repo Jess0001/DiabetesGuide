@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class create_logs extends AppCompatActivity {
+public class Create_Logs extends AppCompatActivity {
 
     String timeRecorded;
     String bloodPressure;
@@ -53,10 +53,10 @@ public class create_logs extends AppCompatActivity {
                 activity = activityEdt.getText().toString();
 
 
-                Intent myIntent = new Intent(create_logs.this, stats.class);
+                Intent myIntent = new Intent(Create_Logs.this, Stats.class);
                 myIntent.putExtra("Time", timeRecorded);
 
-                myIntent = new Intent(create_logs.this, Reccomendations.class);
+                myIntent = new Intent(Create_Logs.this, Reccomendations.class);
                 myIntent.putExtra("Time", timeRecorded);
                 //myIntent.putExtra("bloodSugar", bloodSugar);
                 
